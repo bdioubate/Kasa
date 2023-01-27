@@ -1,0 +1,31 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 209px;
+  width: 100%;
+  background: #000000;
+  margin-top: 22px;
+  &__logo {
+    position: absolute;
+    top: 62px;
+    bottom: 110px;
+    height: 36.11px;
+    width: 122px;
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &__text {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    font-size: 12px;
+    justify-content: center;
+    position: absolute;
+    top: 101px;
+    bottom: 62px;
+  }
+}

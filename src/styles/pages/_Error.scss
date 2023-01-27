@@ -1,0 +1,56 @@
+#error {
+  margin-top: 180px;
+  color: #ff6060;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &__title {
+    height: 99px;
+    width: 198px;
+    font-family: Montserrat;
+    font-size: 96px;
+    font-weight: 700;
+  }
+  &__text {
+    height: 52px;
+    width: 260px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 11px;
+  }
+  &__back {
+    height: 20px;
+    width: 221px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff6060;
+    margin-top: 133px;
+  }
+}
+
+/*Min 1055px*/
+@media screen and (min-width: 1055px) {
+  #error {
+    &__title {
+      height: 263px;
+      width: 597px;
+      font-size: 288px;
+    }
+    &__text {
+      margin-top: 66px;
+      height: 51px;
+      width: 872px;
+      font-size: 36px;
+    }
+    &__back {
+      margin-top: 182px;
+      height: 26px;
+      width: 284px;
+      font-size: 18px;
+    }
+  }
+}

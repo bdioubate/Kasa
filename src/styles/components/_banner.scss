@@ -1,0 +1,42 @@
+.banner {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+  position: relative;
+  background: #000000;
+  mix-blend-mode: darken;
+  &__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+  &__text {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    left: 16px;
+    right: 102px;
+    top: 31px;
+    bottom: 32px;
+  }
+}
+
+/*Min 1440px*/
+@media screen and (min-width: 1440px) {
+  .banner {
+    &__text {
+      font-size: 48px;
+      left: 273px;
+      right: 262px;
+      top: 78px;
+      bottom: 77px;
+      text-align: center;
+    }
+  }
+}
