@@ -16,7 +16,7 @@ function Logement() {
     const exist = LogementsList.find((item) => item.id === { id }.id)
     setBen(exist)
     if (exist === undefined) {
-      navigate(`/404`, { replace: true })
+      navigate(`/Kasa/404`, { replace: true })
     }
   }, [id, navigate])
 

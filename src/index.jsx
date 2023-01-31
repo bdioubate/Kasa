@@ -20,10 +20,10 @@ root.render(
       <div id="container">
         <Header />
         <Switch>
-          <Route exact path="/" element={<Accueil />}></Route>
-          <Route path="/a-propos" element={<APropos />}></Route>
+          <Route exact path="/Kasa/" element={<Accueil />}></Route>
+          <Route path="/Kasa/a-propos" element={<APropos />}></Route>
           <Route path="*" element={<Error />}></Route>
-          <Route path="/logement/:id" element={<Logement />}></Route>
+          <Route path="/Kasa/logement/:id" element={<Logement />}></Route>
         </Switch>
       </div>
       <Footer />
